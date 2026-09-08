@@ -1,0 +1,62 @@
+# =========================
+# Python
+# =========================
+__pycache__/
+*.py[cod]
+*.pyo
+
+# =========================
+# Virtual Environment
+# =========================
+venv/
+.venv/
+env/
+
+# =========================
+# VS Code
+# =========================
+.vscode/
+
+# =========================
+# Jupyter
+# =========================
+.ipynb_checkpoints/
+
+# =========================
+# Large / Generated Data
+# =========================
+
+# Raster / satellite files
+*.tif
+*.tiff
+*.jp2
+
+# NumPy data
+*.npy
+*.npz
+# Trained model weights
+*.pth
+*.pt
+
+# Archives
+*.zip
+
+# =========================
+# Data folders
+# =========================
+data/raw/
+data/processed/
+data/patches/
+data/tiles/
+
+# =========================
+# Results
+# =========================
+results/
+outputs/
+
+# =========================
+# OS files
+# =========================
+.DS_Store
+Thumbs.db
